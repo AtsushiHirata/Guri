@@ -1,0 +1,24 @@
+gui for processingを使う方法
+
+・次のURLからライブラリをダウンロードする。
+
+　URL>http://www.lagers.org.uk/g4p/download.html
+
+・GoogleCodeに飛ぶので最新版を選択する。
+
+・ダウンロードしたZipファイルを展開する。
+
+・展開すると４つのフォルダが現れる。このうちのlibraryフォルダに入っているguicomponents.jarが保存されているパスを記憶しておく。
+
+・Processingを立ち上げ、次のURLのサンプルコードをProcessingのエディタにコピー＆ペーストする。
+
+　URL>http://www.lagers.org.uk/g4p/applets/g4p_showcase/index.html
+
+・bground.jpg(700x340)、time.png(100x60)が必要なので、適当な画像ファイルを加工してデスクトップに用意しておく。用意しておいた二つの画像を、Processingのエディタにドラッグ＆ドロップすると、スケッチを保存しているフォルダ内にdataなるフォルダが作られ、そちらに保存される。
+
+
+・ProcessingのメニューからSketch->Add File...とたどるとダイアログが表示されるので、ここで先ほど展開したZipファイル内のguicomponents.jarを選択し「開く」ボタンを押す。（画像もこの方法で追加できるのだろう。）
+
+・実行すればサンプルが動き始める。
+
+

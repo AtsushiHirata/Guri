@@ -1,0 +1,41 @@
+How to install tool G4PTool 
+G4PToolというツールのインストール方法
+
+Contributed tools must be downloaded separately and placed within the "tools" folder of your Processing sketchbook.
+ユーザ・コミュニティによっって作られた各種のツールは、一緒くたにならないようにダウンロードし、ユーザであるあなたのPCにインストールしたProcessingのsketchbookのtoolsフォルダ内に置いてください。
+
+To find the Processing sketchbook location on your computer, open the Preferences window from the Processing application and look for the "Sketchbook location" item at the top.
+Processingのsketchbookフォルダのパスを見つけるには、ProcessingのIDEからPreferencesウインドウを開き、一番先頭にある"Sketchbook location"という項目を探してください。
+
+
+Copy the contributed tool's folder into the "tools" folder at this location. 
+ダウンロードしてきたツールを解凍して得られたフォルダを、先ほど探し当てた"tools"フォルダにコピーしてください。
+
+You will need to create the "tools" folder if this is your first contributed tool. 
+もし、このようなユーザ・コミュニティによっって提供されたツールを初めて使うのでしたら、"tools"フォルダは自分で作る必要があります。
+
+By default the following locations are used for your sketchbook folder.
+デフォルトでは、そのフォルダはsketchbookフォルダとして使われます。
+
+For mac users the sketchbook folder is located inside ~/Documents/Processing.
+macユーザのsketchbookフォルダは、"~/Documents/Processing"フォルダの中にあります。
+ 
+for windows users the sketchbook folder is located inside folder 'My Documents'/Processing
+windowsユーザのsketchbookフォルダは"My Documents/Processing"フォルダの中にあります。
+
+The folder structure for tool G4PTool should be as follows
+G4PToolのフォルダの中のツリー構造は次のようになっています。
+
+Processing
+  tools
+    G4PTool
+      examples
+      tool
+        G4PTool.jar
+      reference
+      src
+                      
+                      
+After tool G4PTool has been successfully installed, restart processing.
+このようにG4PToolが配置できたら、Processingをいったん終了し、再び起動しましょう。（メニューバーのTools内にGUI builderという項目が増えていればインストール成功です！）                      
+                      
