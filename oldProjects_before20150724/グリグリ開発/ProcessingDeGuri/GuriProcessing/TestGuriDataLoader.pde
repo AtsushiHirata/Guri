@@ -8,7 +8,7 @@ class TestGuriDataLoader{
   GuriData gd = new GuriData();
   GuriDataLoader gdl = new GuriDataLoader();
 //  String dir = new String("C:\Users\mummykinoi\Documents\MyFiles\ソフト開発作業\ProcessingDeGuri" + "\GuriData\メガネ.gri");
-    String dir = new String("C:/Users/mummykinoi/Documents/MyFiles/ソフト開発作業/ProcessingDeGuri/GuriProcessing/GuriData/メガネ.gri");
+    String dir = new String("/Users/mummykinoi/Guri/oldProjects_before20150724/グリグリ開発/GuriData/メガネ.gri");
   gdl.LoadData(gd,dir);
   assert gd.getComment().equals("立体ｸﾞﾘｸﾞﾘ Ver.1.1A (C)Copyright 1996 by J.Kawamata");
   
