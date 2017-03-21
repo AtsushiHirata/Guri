@@ -4,8 +4,12 @@ GButton btnExit;
 
 int ClickCount = 0;
 
+void settings(){
+    size(FRM_WIDTH,FRM_HEIGHT);
+}
+
 void setup(){
-  size(FRM_WIDTH,FRM_HEIGHT);
+//  size(FRM_WIDTH,FRM_HEIGHT);
   btnExit = new GButton(this, "Exit",50,40,30,20);
   System.out.println("setup procedure done.");
 }
@@ -23,4 +27,3 @@ public void handleButtonEvents(GButton button){
 void draw(){
   System.out.print(".");
 }
-

@@ -1,9 +1,12 @@
 // Need G4P library
 import guicomponents.*;
 
+void settings(){
+  size(Constants.SCREEN_WIDTH,Constants.SCREEN_HEIGHT);
+}  
 
 void setup(){
-  size(Constants.SCREEN_WIDTH,Constants.SCREEN_HEIGHT);
+//  size(Constants.SCREEN_WIDTH,Constants.SCREEN_HEIGHT);
   createGUI();
   customGUI();
   // Place your setup code here
